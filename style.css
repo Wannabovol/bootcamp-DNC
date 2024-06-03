@@ -22,7 +22,7 @@ body {
 
 #principal {
     width: 100%;
-    height: 100px;
+    height: 100%;
     border: 1px solid black;
 
     background-color: var(--preto-dnc);
@@ -31,15 +31,15 @@ body {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #BABABA;
-
+    
 }
 
 #menu {
     display: flex;
-    width: 45%;
+    width: 60%;
     justify-content: space-around;
     align-items: center;
-    margin-left: 5%;
+    margin-left: 1%;
 }
 
 #principal div a {
@@ -248,6 +248,7 @@ footer .linha2 a:hover{
     text-align: center;
 }
 @media only screen and (max-width: 600px){
+  
     /* Menu */
     #principal{
         display:flex;
